@@ -1,0 +1,22 @@
+:root {
+    --dark-pink: #ba427b;
+    --link-water-white: #fbfcfe;
+    --san-juan-blue: #36536b;
+    --mirage-blue: #1b262f;
+    --charm-pink: #da6d97 ;
+    --light-san-juan-blue: #6c8294;
+}
+
+body {
+    
+}
+
+
+.nav-bar-header {
+    margin: 0 auto;
+    width: 80%;
+    background-color: red;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
