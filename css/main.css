@@ -8,7 +8,7 @@
 }
 
 body {
-    
+    background-color: var(--link-water-white);
 }
 
 
@@ -20,3 +20,158 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.phone-svg-header {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center
+
+}
+
+.header-hero-container h1 {
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    color: var(--san-juan-blue);
+
+}
+
+.header-hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+
+}
+
+.email {
+    width: 327px;
+    border-style: none;
+    border-radius: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-cta {
+    font-family: "Public Sans", sans-serif;
+    border-radius: 24px;
+    background-color: #BA4270;
+    border-style: none;
+    color: #FBFCFE;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+
+.form-email {
+    padding-bottom: 16px;
+}
+
+.header-hero-container p {
+    font-family: "Public Sans", sans-serif;
+    color: var(--light-san-juan-blue);
+}
+
+.header-hero-container span {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.partners {
+    background-color: var(--mirage-blue);
+}
+
+.partners-containers {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.caption-partners {
+    padding-top: 56px;
+    text-align: center;
+}
+
+.about-us-link {
+    display: inline-block;
+}
+
+
+.partners a {
+    font-family: "Public Sans", sans-serif;
+    color: var(--link-water-white);
+    text-decoration: none;
+    border-radius: 24px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    margin-top: 32px;
+    border: 2px solid white;
+}
+
+.partners h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: var(--link-water-white);
+
+}
+
+.partners p {
+    font-family: "Public Sans", sans-serif;
+    color: var(--link-water-white);
+    padding-top: 16px;
+    opacity: 70%;
+}
+
+.logo-partners {
+    display: grid;
+    gap: 40px 52px;
+    grid-template-columns: repeat(2, 1fr);
+
+    svg {
+        align-self: center;
+        justify-self: center;
+        object-fit: cover;
+        max-width: none;
+    }
+}
+
+
+.solution {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-caption {
+    padding-top: 46px;
+    text-align: center;
+}
+
+.solution h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 36px;
+    color: #36536B;
+}
+
+.solution p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    color: #6C8294;
+}
+
+.solution-ux-ui {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
